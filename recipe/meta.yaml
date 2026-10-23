@@ -1,5 +1,5 @@
 {% set name = "pixcdust" %}
-{% set version = "0.1.2" %}
+{% set version = "0.3.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pixcdust-{{ version }}.tar.gz
-  sha256: d868d97e0557af16fa4aa700e81bac3062e92814d9946455b68e652b0bb3dc91
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pixcdust-{{ version }}.tar.gz
+  sha256: 2bfb58d336b4f23a7d82b2c8d8f4b8cdae7ea1c338b81b8b9cae2e370c33c98b
 
 build:
   noarch: python
